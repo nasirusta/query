@@ -9,6 +9,6 @@
     @apply h-screen w-full flex flex-col;
   }
   body {
-    @apply h-screen antialiased bg-gray-200 bg-opacity-40;
+    @apply h-screen antialiased;
   }
 }

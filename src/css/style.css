@@ -429,8 +429,6 @@ html,
 
 body {
   height: 100vh;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-  --tw-bg-opacity: 0.4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
