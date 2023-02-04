@@ -10,11 +10,11 @@
   }
   body {
     font-family: "Open Sans", sans-serif;
-    @apply h-screen antialiased;
+    @apply h-screen antialiased bg-gray-100 bg-opacity-90;
   }
   header {
-    @apply w-full shadow-md border-b py-2
-    border-gray-400 border-opacity-60;
+    @apply w-full shadow-md border-b py-2 relative z-10
+    border-gray-400 border-opacity-60 bg-white;
   }
   #header-container {
     @apply container mx-auto grid grid-cols-3;
@@ -45,7 +45,21 @@
   main {
     @apply w-full flex-1;
   }
+  .leftAndRight {
+    font-family: "Roboto", sans-serif;
+    @apply w-3/12 h-full relative py-6 px-4 overflow-hidden
+    border-x border-gray-300 bg-white;
+  }
+  .leftAndRight h4 {
+    @apply w-full font-semibold text-sm uppercase;
+  }
+  .leftSection {
+    @apply block;
+  }
+  .rightSection {
+    @apply block;
+  }
   footer {
-    @apply w-full;
+    @apply w-full bg-white;
   }
 }
